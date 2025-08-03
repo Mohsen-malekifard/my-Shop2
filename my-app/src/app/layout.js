@@ -1,4 +1,4 @@
-import { CartProvider } from "@/context/CartContext";
+import { CartProvider } from "../../context/CartContext";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
