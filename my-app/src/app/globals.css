@@ -5,6 +5,12 @@
   --foreground: #171717;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap');
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

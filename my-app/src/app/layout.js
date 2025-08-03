@@ -1,5 +1,6 @@
-import { CartProvider } from "./context/CartContext";
-import Navbar from "./components/Navbar";
+import { CartProvider } from "@/context/CartContext";
+import Navbar from "@/components/Navbar";
+import "./globals.css"; // اگه هنوز نساختی، بساز!
 
 export const metadata = {
   title: "فروشگاه من",
@@ -9,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
-      <body className="bg-gray-50 text-gray-900 font-sans">
+      <body className="bg-gray-100 text-gray-900 font-sans">
         <CartProvider>
           <Navbar />
           <main className="max-w-6xl mx-auto p-4">{children}</main>
