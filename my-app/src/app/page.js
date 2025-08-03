@@ -1,5 +1,5 @@
-import data from "@/lib/data";
-import ProductCard from "@/components/ProductCard";
+import data from "./lib/data";
+import ProductCard from "./components/ProductCard";
 
 export default function Home() {
   return (
