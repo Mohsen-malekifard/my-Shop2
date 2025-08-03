@@ -1,5 +1,5 @@
-import { CartProvider } from "@/context/CartContext";
-import Navbar from "@/components/Navbar";
+import { CartProvider } from "./context/CartContext";
+import Navbar from "./components/Navbar";
 import "./globals.css"; // اگه هنوز نساختی، بساز!
 
 export const metadata = {
