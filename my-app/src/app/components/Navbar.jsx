@@ -11,9 +11,9 @@ export default function Navbar() {
       <Link href="/" className="text-xl font-bold text-blue-600">
         فروشگاه من
       </Link>
-      <div className="text-sm text-gray-700">
+      <Link href="/cart" className="text-sm text-blue-600 hover:underline">
         🛒 سبد خرید ({cart.length})
-      </div>
+      </Link>
     </nav>
   );
 }
