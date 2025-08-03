@@ -1,9 +1,9 @@
-"use client";
+"use client"
 
-import data from "@/lib/data";
-import { useCart } from "@/context/CartContext";
+import data from "../../lib/data";
+import { useCart } from "../../context/CartContext";
 
-export async function generateStaticParams() {
+async function generateStaticParams() {
   return data.map((product) => ({
     id: product.id,
   }));
